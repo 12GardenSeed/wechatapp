@@ -1,0 +1,14 @@
+<block>
+    <view class="page">
+        <view class="title">{{title}}</view>
+        <view class="container">
+            <view class="userinfo" bindtap="handleViewTap">
+                <image class="userinfo-avatar" src="{{ userInfo.avatarUrl }}" background-size="cover"
+                />
+                <view class="userinfo-nickname">{{userInfo.nickName}}</view>
+            </view>
+        </view>
+        <button class="add" bindtap="anonymousState__temp">继续添加</button>
+        <button class="list" bindtap="anonymousState__temp2">返回运营管理</button>
+    </view>
+</block>
