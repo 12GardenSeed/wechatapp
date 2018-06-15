@@ -1,0 +1,16 @@
+{
+	"miniprogramRoot": "./dist",
+	"projectname": "qrCodeScan",
+	"pluginRoot": "./plugin",
+	"description": "simple taro",
+	"appid": "wxe11eaeeac8341a58",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "plugin",
+	"condition": {}
+}
